@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F444D871A828970004B31C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444D861A828970004B31C6 /* main.m */; };
+		0F444D8A1A828970004B31C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444D891A828970004B31C6 /* AppDelegate.m */; };
+		0F444D8D1A828970004B31C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444D8C1A828970004B31C6 /* ViewController.m */; };
+		0F444D901A828970004B31C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F444D8E1A828970004B31C6 /* Main.storyboard */; };
+		0F444D921A828970004B31C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F444D911A828970004B31C6 /* Images.xcassets */; };
+		0F444D951A828970004B31C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F444D931A828970004B31C6 /* LaunchScreen.xib */; };
+		0F444DA11A828970004B31C6 /* Tic_Tac_SnowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444DA01A828970004B31C6 /* Tic_Tac_SnowTests.m */; };
+		0F444DAC1A828E3E004B31C6 /* XandO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444DAB1A828E3E004B31C6 /* XandO.m */; };
+		0F444DAE1A82C76D004B31C6 /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0F444DAD1A82C76D004B31C6 /* boing.wav */; };
+		0F444DB21A82C992004B31C6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F444DAF1A82C95F004B31C6 /* AudioToolbox.framework */; };
+		0F444DB41A82CBFC004B31C6 /* blip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0F444DB31A82CBFC004B31C6 /* blip.wav */; };
+		0F444DB61A82CE3A004B31C6 /* chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0F444DB51A82CE3A004B31C6 /* chime.wav */; };
+		0F444DBB1A82DDF8004B31C6 /* cheering.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0F444DBA1A82DDF8004B31C6 /* cheering.wav */; };
+		0F444DBD1A82E5BE004B31C6 /* boo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0F444DBC1A82E5BE004B31C6 /* boo.wav */; };
+		0F444DC31A82E9DD004B31C6 /* DrawWinningLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F444DC21A82E9DD004B31C6 /* DrawWinningLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F444D9B1A828970004B31C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F444D791A828970004B31C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F444D801A828970004B31C6;
+			remoteInfo = "Tic-Tac-Snow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F444D811A828970004B31C6 /* Tic-Tac-Snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Snow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F444D851A828970004B31C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F444D861A828970004B31C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F444D881A828970004B31C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F444D891A828970004B31C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F444D8B1A828970004B31C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F444D8C1A828970004B31C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F444D8F1A828970004B31C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F444D911A828970004B31C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F444D941A828970004B31C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F444D9A1A828970004B31C6 /* Tic-Tac-SnowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-SnowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F444D9F1A828970004B31C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F444DA01A828970004B31C6 /* Tic_Tac_SnowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tic_Tac_SnowTests.m; sourceTree = "<group>"; };
+		0F444DAA1A828E3E004B31C6 /* XandO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XandO.h; sourceTree = "<group>"; };
+		0F444DAB1A828E3E004B31C6 /* XandO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XandO.m; sourceTree = "<group>"; };
+		0F444DAD1A82C76D004B31C6 /* boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing.wav; sourceTree = "<group>"; };
+		0F444DAF1A82C95F004B31C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0F444DB31A82CBFC004B31C6 /* blip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blip.wav; sourceTree = "<group>"; };
+		0F444DB51A82CE3A004B31C6 /* chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chime.wav; sourceTree = "<group>"; };
+		0F444DBA1A82DDF8004B31C6 /* cheering.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cheering.wav; sourceTree = "<group>"; };
+		0F444DBC1A82E5BE004B31C6 /* boo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boo.wav; sourceTree = "<group>"; };
+		0F444DC11A82E9DD004B31C6 /* DrawWinningLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawWinningLine.h; sourceTree = "<group>"; };
+		0F444DC21A82E9DD004B31C6 /* DrawWinningLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawWinningLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F444D7E1A828970004B31C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F444DB21A82C992004B31C6 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F444D971A828970004B31C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F444D781A828970004B31C6 = {
+			isa = PBXGroup;
+			children = (
+				0F444DB11A82C962004B31C6 /* Frameworks */,
+				0F444D831A828970004B31C6 /* Tic-Tac-Snow */,
+				0F444D9D1A828970004B31C6 /* Tic-Tac-SnowTests */,
+				0F444D821A828970004B31C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F444D821A828970004B31C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F444D811A828970004B31C6 /* Tic-Tac-Snow.app */,
+				0F444D9A1A828970004B31C6 /* Tic-Tac-SnowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F444D831A828970004B31C6 /* Tic-Tac-Snow */ = {
+			isa = PBXGroup;
+			children = (
+				0F444D881A828970004B31C6 /* AppDelegate.h */,
+				0F444D891A828970004B31C6 /* AppDelegate.m */,
+				0F444D8B1A828970004B31C6 /* ViewController.h */,
+				0F444D8C1A828970004B31C6 /* ViewController.m */,
+				0F444D8E1A828970004B31C6 /* Main.storyboard */,
+				0F444D911A828970004B31C6 /* Images.xcassets */,
+				0F444D931A828970004B31C6 /* LaunchScreen.xib */,
+				0F444D841A828970004B31C6 /* Supporting Files */,
+				0F444DAA1A828E3E004B31C6 /* XandO.h */,
+				0F444DAB1A828E3E004B31C6 /* XandO.m */,
+				0F444DAD1A82C76D004B31C6 /* boing.wav */,
+				0F444DB31A82CBFC004B31C6 /* blip.wav */,
+				0F444DB51A82CE3A004B31C6 /* chime.wav */,
+				0F444DBA1A82DDF8004B31C6 /* cheering.wav */,
+				0F444DBC1A82E5BE004B31C6 /* boo.wav */,
+				0F444DC11A82E9DD004B31C6 /* DrawWinningLine.h */,
+				0F444DC21A82E9DD004B31C6 /* DrawWinningLine.m */,
+			);
+			path = "Tic-Tac-Snow";
+			sourceTree = "<group>";
+		};
+		0F444D841A828970004B31C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F444D851A828970004B31C6 /* Info.plist */,
+				0F444D861A828970004B31C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F444D9D1A828970004B31C6 /* Tic-Tac-SnowTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F444DA01A828970004B31C6 /* Tic_Tac_SnowTests.m */,
+				0F444D9E1A828970004B31C6 /* Supporting Files */,
+			);
+			path = "Tic-Tac-SnowTests";
+			sourceTree = "<group>";
+		};
+		0F444D9E1A828970004B31C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F444D9F1A828970004B31C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F444DB11A82C962004B31C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F444DAF1A82C95F004B31C6 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F444D801A828970004B31C6 /* Tic-Tac-Snow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F444DA41A828970004B31C6 /* Build configuration list for PBXNativeTarget "Tic-Tac-Snow" */;
+			buildPhases = (
+				0F444D7D1A828970004B31C6 /* Sources */,
+				0F444D7E1A828970004B31C6 /* Frameworks */,
+				0F444D7F1A828970004B31C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tic-Tac-Snow";
+			productName = "Tic-Tac-Snow";
+			productReference = 0F444D811A828970004B31C6 /* Tic-Tac-Snow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F444D991A828970004B31C6 /* Tic-Tac-SnowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F444DA71A828970004B31C6 /* Build configuration list for PBXNativeTarget "Tic-Tac-SnowTests" */;
+			buildPhases = (
+				0F444D961A828970004B31C6 /* Sources */,
+				0F444D971A828970004B31C6 /* Frameworks */,
+				0F444D981A828970004B31C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F444D9C1A828970004B31C6 /* PBXTargetDependency */,
+			);
+			name = "Tic-Tac-SnowTests";
+			productName = "Tic-Tac-SnowTests";
+			productReference = 0F444D9A1A828970004B31C6 /* Tic-Tac-SnowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F444D791A828970004B31C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jake Hergott";
+				TargetAttributes = {
+					0F444D801A828970004B31C6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 723KYE3F9E;
+					};
+					0F444D991A828970004B31C6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0F444D801A828970004B31C6;
+					};
+				};
+			};
+			buildConfigurationList = 0F444D7C1A828970004B31C6 /* Build configuration list for PBXProject "Tic-Tac-Snow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F444D781A828970004B31C6;
+			productRefGroup = 0F444D821A828970004B31C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F444D801A828970004B31C6 /* Tic-Tac-Snow */,
+				0F444D991A828970004B31C6 /* Tic-Tac-SnowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F444D7F1A828970004B31C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F444DB41A82CBFC004B31C6 /* blip.wav in Resources */,
+				0F444DAE1A82C76D004B31C6 /* boing.wav in Resources */,
+				0F444D901A828970004B31C6 /* Main.storyboard in Resources */,
+				0F444DBD1A82E5BE004B31C6 /* boo.wav in Resources */,
+				0F444DB61A82CE3A004B31C6 /* chime.wav in Resources */,
+				0F444DBB1A82DDF8004B31C6 /* cheering.wav in Resources */,
+				0F444D951A828970004B31C6 /* LaunchScreen.xib in Resources */,
+				0F444D921A828970004B31C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F444D981A828970004B31C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F444D7D1A828970004B31C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F444DAC1A828E3E004B31C6 /* XandO.m in Sources */,
+				0F444D8D1A828970004B31C6 /* ViewController.m in Sources */,
+				0F444DC31A82E9DD004B31C6 /* DrawWinningLine.m in Sources */,
+				0F444D8A1A828970004B31C6 /* AppDelegate.m in Sources */,
+				0F444D871A828970004B31C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F444D961A828970004B31C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F444DA11A828970004B31C6 /* Tic_Tac_SnowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F444D9C1A828970004B31C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F444D801A828970004B31C6 /* Tic-Tac-Snow */;
+			targetProxy = 0F444D9B1A828970004B31C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F444D8E1A828970004B31C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F444D8F1A828970004B31C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F444D931A828970004B31C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F444D941A828970004B31C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F444DA21A828970004B31C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F444DA31A828970004B31C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F444DA51A828970004B31C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tic-Tac-Snow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F444DA61A828970004B31C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Tic-Tac-Snow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F444DA81A828970004B31C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tic-Tac-SnowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tic-Tac-Snow.app/Tic-Tac-Snow";
+			};
+			name = Debug;
+		};
+		0F444DA91A828970004B31C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tic-Tac-SnowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tic-Tac-Snow.app/Tic-Tac-Snow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F444D7C1A828970004B31C6 /* Build configuration list for PBXProject "Tic-Tac-Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F444DA21A828970004B31C6 /* Debug */,
+				0F444DA31A828970004B31C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F444DA41A828970004B31C6 /* Build configuration list for PBXNativeTarget "Tic-Tac-Snow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F444DA51A828970004B31C6 /* Debug */,
+				0F444DA61A828970004B31C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F444DA71A828970004B31C6 /* Build configuration list for PBXNativeTarget "Tic-Tac-SnowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F444DA81A828970004B31C6 /* Debug */,
+				0F444DA91A828970004B31C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F444D791A828970004B31C6 /* Project object */;
+}

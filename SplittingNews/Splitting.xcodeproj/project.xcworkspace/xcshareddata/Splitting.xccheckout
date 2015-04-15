@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>668AEC2E-0CA7-4937-B93D-57F25CFA2295</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Splitting</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8C1136D9A84636F778F36AE06D382550FF7A3A2</key>
+		<string>https://bitbucket.org/jhergott/jhergott_mpcs_51030.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>All_iOS_Homeworks/jhergott-MPCS51030-Winter-2015-Assignment-7-grade/Splitting/Splitting.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8C1136D9A84636F778F36AE06D382550FF7A3A2</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jhergott/jhergott_mpcs_51030.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8C1136D9A84636F778F36AE06D382550FF7A3A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8C1136D9A84636F778F36AE06D382550FF7A3A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
